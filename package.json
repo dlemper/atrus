@@ -1,0 +1,50 @@
+{
+  "name": "starlight",
+  "version": "0.1.0",
+  "description": "Express based framework for web services",
+  "main": "lib/app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node --trace-sync-io .",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dlemper.de:starlight"
+  },
+  "author": "Daniel Lemper <ich@dlemper.de>",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "argon2": "^0.14.1",
+    "bcryptjs": "^2.4.0",
+    "body-parser": "^1.15.2",
+    "check-types": "^7.0.1",
+    "compression": "^1.6.2",
+    "connect-timeout": "^1.8.0",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "express-unless": "^0.3.0",
+    "express-validation": "^1.0.1",
+    "helmet": "^3.1.0",
+    "joi": "^9.2.0",
+    "jugglingdb": "^2.0.0-rc8",
+    "jugglingdb-mongodb": "0.2.0",
+    "limes": "^0.5.0",
+    "lodash": "^4.17.2",
+    "moment": "^2.17.1",
+    "mustbe": "^0.4.0",
+    "nodemailer": "^2.6.4",
+    "require-dir": "^0.3.1",
+    "scrypt": "^6.0.3",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  }
+}
