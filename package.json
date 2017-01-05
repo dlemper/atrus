@@ -10,11 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@dlemper.de:starlight"
+    "url": "git@github.com:starlight"
   },
-  "author": "Daniel Lemper <ich@dlemper.de>",
+  "author": "Daniel Lemper <github@dlemper.de>",
   "license": "ISC",
-  "private": true,
   "dependencies": {
     "argon2": "^0.14.1",
     "bcryptjs": "^2.4.0",
