@@ -1,3 +1,6 @@
+const debug = require('debug')('server');
+const app = require('./lib/app');
+
 /** middlewares **/
 /*
 timeout.unless = unless;
