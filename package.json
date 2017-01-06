@@ -5,15 +5,15 @@
   "main": "lib/app.js",
   "scripts": {
     "dev": "NODE_ENV=development node --trace-sync-io .",
-    "test": "eslint ."
+    "test": "eslint .",
+    "docs": "node_modules/.bin/jsdoc -d docs index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@dlemper.de:starlight"
+    "url": "git@github.com:starlight"
   },
-  "author": "Daniel Lemper <ich@dlemper.de>",
+  "author": "Daniel Lemper <github@dlemper.de>",
   "license": "ISC",
-  "private": true,
   "dependencies": {
     "argon2": "^0.14.1",
     "bcryptjs": "^2.4.0",
@@ -21,22 +21,16 @@
     "check-types": "^7.0.1",
     "compression": "^1.6.2",
     "connect-timeout": "^1.8.0",
+    "consolidate": "^0.14.5",
     "cookie-parser": "^1.4.3",
     "csurf": "^1.9.0",
     "debug": "^2.3.3",
     "express": "^4.14.0",
-    "express-unless": "^0.3.0",
+    "express-jwt-permissions": "^0.5.0",
     "express-validation": "^1.0.1",
     "helmet": "^3.1.0",
     "joi": "^9.2.0",
-    "jugglingdb": "^2.0.0-rc8",
-    "jugglingdb-mongodb": "0.2.0",
-    "limes": "^0.5.0",
-    "lodash": "^4.17.2",
-    "moment": "^2.17.1",
-    "mustbe": "^0.4.0",
-    "nodemailer": "^2.6.4",
-    "require-dir": "^0.3.1",
+    "jsonwebtoken": "^7.2.1",
     "scrypt": "^6.0.3",
     "serve-favicon": "^2.3.2"
   },
@@ -45,6 +39,7 @@
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.8.0"
+    "eslint-plugin-react": "^6.8.0",
+    "jsdoc": "^3.4.3"
   }
 }
