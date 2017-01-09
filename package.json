@@ -1,5 +1,5 @@
 {
-  "name": "starlight",
+  "name": "atrus",
   "version": "0.1.0",
   "description": "Express based framework for web services",
   "main": "lib/app.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:starlight"
+    "url": "git@github.com:atrus"
   },
   "author": "Daniel Lemper <github@dlemper.de>",
   "license": "ISC",
