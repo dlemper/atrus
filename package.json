@@ -1,6 +1,6 @@
 {
   "name": "atrus",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Express based framework for web services",
   "main": "lib/app.js",
   "scripts": {
