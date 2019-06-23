@@ -39,7 +39,7 @@
     "qs": "^6.6.0",
     "raw-body": "^2.3.3",
     "scrypt": "^6.0.3",
-    "sequelize": "^5.3.0",
+    "sequelize": "^5.8.11",
     "serve-favicon": "^2.5.0",
     "type-is": "^1.6.16",
     "xml2js": "^0.4.19"
