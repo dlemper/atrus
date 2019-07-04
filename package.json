@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "NODE_ENV=development node --trace-sync-io .",
     "test": "eslint .",
-    "docs": "node_modules/.bin/jsdoc -d docs index.js"
+    "docs": "node_modules/.bin/jsdoc -d docs index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -42,7 +44,8 @@
     "sequelize": "^5.8.11",
     "serve-favicon": "^2.5.0",
     "type-is": "^1.6.16",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -51,5 +54,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "jsdoc": "^3.5.5"
-  }
+  },
+  "snyk": true
 }
