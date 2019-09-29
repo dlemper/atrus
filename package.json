@@ -30,7 +30,7 @@
     "debug": "^3.2.6",
     "express": "^4.16.4",
     "express-jwt-permissions": "^1.2.3",
-    "helmet": "^3.15.1",
+    "helmet": "^3.21.1",
     "http-proxy": "^1.17.0",
     "joi": "^13.7.0",
     "jsonwebtoken": "^8.4.0",
